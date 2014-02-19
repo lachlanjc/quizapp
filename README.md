@@ -1,6 +1,6 @@
-[![Stories in Ready](https://badge.waffle.io/lachlanjc/quizapp.png?label=ready)](https://waffle.io/lachlanjc/quizapp)
 
-Quiz App
+
+Quiz App [![Stories in Ready](https://badge.waffle.io/lachlanjc/quizapp.png?label=ready)](https://waffle.io/lachlanjc/quizapp)
 =======
 
 The simplest way to give your class a quiz. Coming May 2014.
