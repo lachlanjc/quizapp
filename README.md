@@ -1,4 +1,5 @@
 [![Stories in Ready](https://badge.waffle.io/lachlanjc/quizapp.png?label=ready)](https://waffle.io/lachlanjc/quizapp)
+[![Stories in Ready](https://badge.waffle.io/lachlanjc/quizapp.png?label=ready)](https://waffle.io/lachlanjc/quizapp)
 Quiz App
 =======
 
