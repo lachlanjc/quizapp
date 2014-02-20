@@ -24,9 +24,9 @@
 	            "options": {
 	                "option_a": "Alexander Main",
 	                "option_b": "Oliver Cooper",
-	                "option_c": "Xavier Soom",
+	                "option_c": "Bunzy Soom",
 	                "option_d": "Christopher Lonkenberry",
-                    "option_e": "John Bunzy",
+                    "option_e": "Bunzy Soom",
 	            },
 	            "answer": "option_b",
 	       },
@@ -34,7 +34,7 @@
 	            "title": "Who did he work with?",
 	            "type": "mc",
 	            "options": {
-	                "option_a": "Alexander Main",
+	                "option_a": "Burnzey Main",
 	                "option_b": "Elefactor Noo",
 	                "option_c": "Xavier Soom",
 	                "option_d": "Christopher Lonkenberry",
