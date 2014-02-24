@@ -1,0 +1,92 @@
+<!--THE LAYOUT OF THIS ENTIRE PAGE LOOKS LIKE A HURRICANE CAME THROUGH!-->
+<!--There's an Issue open for fixing it. It has some information on what to do.-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Quiz</title>
+    <link rel="stylesheet" href="https://pfmscode.s3.amazonaws.com/bootstrap3.1.min.modified.css" type="text/css" />
+    <link rel="stylesheet" href="https://c9.io/lachlanjc/le-pfms/workspace/quiz/resources/stylesheets/global-ss.css" type="text/css" />
+    <link rel="stylesheet" href="https://c9.io/lachlanjc/le-pfms/workspace/quiz/resources/stylesheets/nq-ss.css" type="text/css" />
+    <script type="text/javascript" src="https://c9.io/lachlanjc/le-pfms/workspace/quiz/resources/scripts/filler.js"></script>
+    <script type="text/javascript" src="https://c9.io/lachlanjc/le-pfms/workspace/quiz/resources/scripts/nq.js"></script>
+</head>
+<body>
+    <header>
+        <a href="https://c9.io/lachlanjc/le-pfms/workspace/quiz/pages/teacher-d.html">
+        <div class="btn btn-danger" href="javascript:;" onclick="backtotd()" title="Clicking this button will delete all data you have entered on this page and will return to your Dashboard.">Cancel</div></a>
+        <span>New Quiz</span>
+        <div class="btn btn-success" href="javascript:;" onclick="createQuiz()" title="Clicking this button will save this quiz and make it ready for Assigning.">Create Quiz</div>
+    </header>
+    <section>
+        <p>Quiz Title:</p>
+        <input placeholder="Title" class="form-control"></input>
+    </section>
+    <div class="dotted-line"></div>
+    <section>
+        <span class="q-header">Question 1</span><br />
+        <div class="q-type">Type:
+        <select>
+            <option>Multiple Choice</option>
+            <option>True/False</option>
+            <option>Write a Response</option>
+        </select>
+        </div>
+        <a class="help" href="#" onclick="showHelper();">?</a><br />
+        <div id="helper">To define the correct answer, click the circle to the left of the text.</div>
+        <input type="text" placeholder="Question" title="Click the box and type in the question." class="form-control"></input>
+        <br>
+        <ul>
+            <li>
+                <input name="answerselector" type="radio"></input>
+                <input type="text" class="form-control" title="Type in a possible answer, then click the circle next to the correct one." placeholder="Option A"></input>
+            </li>
+            <li>
+                <input name="answerselector" type="radio"></input>
+                <input type="text" class="form-control" title="Type in a possible answer, then click the circle next to the correct one." placeholder="Option B"></input>
+            </li>
+            <li>
+                <input name="answerselector"type="radio"></input>
+                <input type="text" class="form-control" title="Type in a possible answer, then click the circle next to the correct one." placeholder="Option C"></input>
+            </li>
+            <li>
+                <input name="answerselector" type="radio"></input>
+                <input type="text" class="form-control" title="Type in a possible answer, then click the circle next to the correct one." placeholder="Option D"></input>
+            </li>
+        </ul>
+    </section>
+    <div class="dotted-line"></div>
+    <section>
+        <span class="q-header">Question 2</span><br />
+        <div class="q-type">Type:
+        <select>
+            <option>Multiple Choice</option>
+            <option>True/False</option>
+            <option>Write a Response</option>
+        </select>
+        </div>
+        <a class="help" href="#" onclick="showHelper();">?</a><br />
+        <div id="helper">To define the correct answer, click the circle to the left of the text.</div>
+        <input type="text" placeholder="Question" title="Click the box and type in the question." class="form-control"></input>
+        <br>
+        <ul>
+            <li>
+                <input name="answerselector" type="radio"></input>
+                <input type="text" class="form-control" title="Type in a possible answer, then click the circle next to the correct one." placeholder="Option A"></input>
+            </li>
+            <li>
+                <input name="answerselector" type="radio"></input>
+                <input type="text" class="form-control" title="Type in a possible answer, then click the circle next to the correct one." placeholder="Option B"></input>
+            </li>
+            <li>
+                <input name="answerselector"type="radio"></input>
+                <input type="text" class="form-control" title="Type in a possible answer, then click the circle next to the correct one." placeholder="Option C"></input>
+            </li>
+            <li>
+                <input name="answerselector" type="radio"></input>
+                <input type="text" class="form-control" title="Type in a possible answer, then click the circle next to the correct one." placeholder="Option D"></input>
+            </li>
+        </ul>
+    </section>
+    <div class="dotted-line"></div>
+</body>
+</html>
