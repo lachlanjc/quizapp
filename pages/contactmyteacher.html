@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Your Teacher</title>
+        <link rel="stylesheet" href="http://d2pr1yjmtcfea7.cloudfront.net/bootstrap3.1.min.modified.css" type="text/css" />
+        <link rel="stylesheet" href="https://c9.io/lachlanjc/le-pfms/workspace/quiz/resources/stylesheets/global-ss.css" type="text/css" />
+        <link rel="stylesheet" href="https://c9.io/lachlanjc/le-pfms/workspace/quiz/resources/stylesheets/ct-ss.css" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+        <script src="https://c9.io/lachlanjc/le-pfms/workspace/quiz/filler.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://d2pr1yjmtcfea7.cloudfront.net/mandrill.min.js"></script>  
+    </head>   
+    <body>
+    <div id="content">
+        <h2>Contact Your Teacher</h2>
+        <p>First, pick a teacher to send the message to:</p>
+        <select>
+            <option value="alb11@scasd.org">Ms. Buchan</option>
+            <option value="rgm11@scasd.org">Mr. Miller</option>
+            <option value="jrc28@scasd.org">Mr. Cimino</option>
+        </select>
+        <p>Now add a subject:</p>
+        <input placeholder="Subject" type="text" class="form-control"></input>
+        <p>What do you want to tell your teacher?</p>
+        <textarea placeholder="Body" cols="20" rows="4" class="form-control" id="Body"></textarea><br />
+        <div onclick="sendTheMail(); return false; showCOnfirmation();" class="btn btn-primary">Send Message</div><br />
+        <span class="disclaimer">Your message will be sent securely to your teacher via email.</span>
+        </div>
+        <span id="mail_sent">Message sent!</span>
+    </body>
+</html>
