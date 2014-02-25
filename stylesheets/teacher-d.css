@@ -1,0 +1,36 @@
+.btn-primary {
+    margin-left: auto;
+    margin-right: 15px;
+} .btn-two {
+    margin-left: 15px;
+    margin-right: auto;
+} .quiz-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} article {
+    text-align: left;
+} article ul {
+    list-style: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+} ul li {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+} ul li .quiz-t {
+    color: #333;
+    font-size: 1.75em;
+    list-style: none !important;
+} ul li .quiz-d {
+    font-size: 1.1em;
+    color: #ccc;
+} a:hover {
+    text-decoration: none !important;
+} .quiz-container ul li:hover {
+    background: rgba(1,102,203,0.1);
+    border: 1px solid rgba(1,102,203,0.3);
+    border-radius: 15px;
+}
