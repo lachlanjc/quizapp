@@ -15,7 +15,7 @@ function showConfirmation() {
 
 var studentName = "Jake";
 
-var subject = "My grade in your stupid class is a 0";
+var subject = "My grade in your class is a 0";
 var assembledSubject = studentName + " has a message for you: " + subject;
 
 var body = "Please raise it to 100% for me. I'll even give you a candy bar to do it.";
