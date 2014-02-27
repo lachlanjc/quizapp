@@ -13,12 +13,12 @@ function showConfirmation() {
 }
 
 
-var studentName = "Jake";
+var studentName = prompt("What is your name?");
 
-var subject = "My grade in your stupid class is a 0";
+var subject = prompt("Subject?");
 var assembledSubject = studentName + " has a message for you: " + subject;
 
-var body = "Please raise it to 100% for me. I'll even give you a candy bar to do it.";
+var body = prompt("What is your message ?");
 var assembledBody = "One of your students, " + studentName + ", has sent you the following message:" + body;
 
 var m = new mandrill.Mandrill('h0Px_zEi1J-qKIpu8q4TlA');
