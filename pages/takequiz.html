@@ -12,8 +12,11 @@
 </head>
 <body>
     <header>
-    <h1>The Effects of the Bunny Revolution</h1>
+        <button class="btn btn-primary" onclick="backToDashboard();">Back to Dashboard</button>
+        <span>The Effects of the Bunny Revolution</span>
+        <button class="btn hidden"></button>
     </header>
+    <article>
     <h3>Question 1</h3>
     <h4>When did the Bunny Revolution begin?</h4>
     <input type="radio" name="radio-btn1" id="option_a1"><label for="option_a1">&nbsp 2050</label>
@@ -57,6 +60,7 @@
     <h4>How does the Bunny Revolution impact us today?</h4>
     <textarea cols="40" rows="10" required></textarea>
     <div class="dotted-line"></div>
+    </article>
     <button class="btn btn-primary">Save</button>
     <button class="btn btn-warning" onclick="confirm()">Submit</button>
 </body>
