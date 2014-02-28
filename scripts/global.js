@@ -5,8 +5,8 @@ function linky() {
     alert("Doesn't work yet, sorry! Please wait a few thousand years.");
 }
 function newquiz() {
-    window.location("https://c9.io/lachlanjc/le-pfms/workspace/quiz/pages/newquiz.html");
+    window.location("http://pfmscode.github.io/quizapp/pages/newquiz.html");
 }
 function backtotd() {
-    window.location("https://c9.io/lachlanjc/le-pfms/workspace/quiz/pages/teacher-d.html");
+    window.location("http://pfmscode.github.io/quizapp/pages/teacher-d.html");
 }
