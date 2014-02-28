@@ -59,6 +59,9 @@ body {
     max-width: 750px;
     min-width: 150px;
 }
+.btn-submitsave {
+    text-align:center;
+}
 /* We're now using Bootstrap for field styling, I'm just leaving this here. */
 /* .field {
     border-radius: 5px;
