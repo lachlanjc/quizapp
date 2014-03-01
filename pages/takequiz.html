@@ -12,9 +12,9 @@
 </head>
 <body>
     <header>
-        <button class="btn btn-primary" onclick="backToDashboard();">Back to Dashboard</button>
-        <span>The Effects of the Bunny Revolution</span>
-        <button class="btn hidden"></button>
+        <button class="btn btn-primary btn-left" onclick="backToDashboard();">Back to Dashboard</button>
+        <span>Quiz: The Effects of the Bunny Revolution</span>
+        <button class="btn btn-warning btn-right">Close &amp; Log Out</button>
     </header>
     <article>
     <h3>Question 1</h3>
@@ -54,14 +54,13 @@
     <input type="radio" name="radio-btntf" id="tf"><label for="false1">&nbsp False</label>
     <div class="dotted-line"></div>
     <h3>Question 5</h3>
-    <h4>Starting in <input type="text"> the Bunny Revolution was lead by <input type="text">. He partnered with <input type="text"> to gather international support for the cause. His first step was to <input type="text"></h4>
+    <h4 class="fb">Starting in <input type="text" class="form-control"> the Bunny Revolution was lead by <input type="text" class="form-control">. He partnered with <input type="text" class="form-control"> to gather international support for the cause. His first steps were to <input type="text" class="form-control"> and then to <input type="text" class="form-control">.</h4>
     <div class="dotted-line"></div>
     <h3>Question 6</h3>
     <h4>How does the Bunny Revolution impact us today?</h4>
-    <textarea cols="40" rows="10" required></textarea>
+    <textarea class="form-control" cols="75" rows="8" required></textarea>
     <div class="dotted-line"></div>
+    <button class="btn btn-primary" onclick="submit();">Submit</button>
     </article>
-    <button class="btn btn-primary">Save</button>
-    <button class="btn btn-warning" onclick="confirm()">Submit</button>
 </body>
 </html>
