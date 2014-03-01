@@ -11,7 +11,9 @@ function showConfirmation() {
     document.getElementById("content").style.display="none";
     document.getElementById("mail_sent").style.display="block";
 }
-
+function takeTest(){
+    window.open("http://pfmscode.github.io/quizapp/pages/takequiz.html")
+}
 
 var studentName = "Jake";
 
