@@ -5,6 +5,9 @@
     "created_date": "time",
     "last_opened": "time",
     "last_modified": "time",
+    "timer": "on",
+    "livescoring": "on",
+    "savebutton": "on",
     "questions": [
         {
 	        "question_1": {
