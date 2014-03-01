@@ -3,6 +3,9 @@ article {
   margin-left: 20%;
   margin-right: 30%;
 }
+article h4 {
+  line-height: 2em;
+}
 article .btn-primary {
   margin-bottom: 25px;
 }
@@ -10,8 +13,7 @@ article label {
   font-weight: 400 !important;
 }
 .fb {
-  width: 
-  line-height: 2em;
+  line-height: 3em;
   vertical-align: top;
 }
 .fb input {
