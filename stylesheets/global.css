@@ -43,7 +43,12 @@ body {
 } .btn-two:hover {
     background-color: #e4ab00;
     border-color: #fc3;
-} .hidden {
+} .btn-left {
+    margin: 10px auto 10px 10px;
+} .btn-right {
+    margin: 10px 10px 10px auto;
+}
+.hidden {
     opacity: 0;
 } .dotted-line {
     border-top: 2px dotted #cccccc;
