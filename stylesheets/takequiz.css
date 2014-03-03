@@ -31,9 +31,10 @@ textarea {
   height: 12em !important;
 }
 .timer {
-  width: 2em;
-  height: 2em;
-  border-radius: 15px;
+  width: 5em;
+  height: 3em;
+  border-radius: 12px;
+  margin: 15px 15px auto auto;
   border: 1px solid #f6ae00;
   display: flex;
   display: -webkit-flex;
