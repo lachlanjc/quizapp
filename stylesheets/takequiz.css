@@ -40,10 +40,10 @@ textarea {
 }
 .timer .number {
   color: #f6ae00;
-  font-size: 1.5em;
-  font-weight: 300;
+  font-size: 1.2em;
+  font-weight: 300 !important;
   text-align: center;
-  margin-top: 0.75em;
+  padding-top: 0.5em;
 }
 @media only screen and (max-width : 1024px) {
   header span {
