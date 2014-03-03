@@ -37,6 +37,7 @@ textarea {
   margin: 15px 15px auto auto;
   position: fixed;
   border: 1px solid #f6ae00;
+  background: #fff;
 }
 .timer .number {
   color: #f6ae00;
@@ -57,5 +58,21 @@ textarea {
     width: 70% !important;
     margin-left: 0 !important;
     margin-right: auto;
+  }
+}
+@media print {
+  .dotted-line {
+    border-bottom: 1px solid #ccc;
+    margin-left: 0 !important;
+    width: 75%;
+  }
+  .timer {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  header {
+    border-bottom: none;
   }
 }
