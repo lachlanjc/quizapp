@@ -30,6 +30,30 @@ textarea {
   width: 20em !important;
   height: 12em !important;
 }
+.timer {
+  width: 2em;
+  height: 2em;
+  border-radius: 15px;
+  border: 1px solid #f6ae00;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+}
+.timer .icon {
+  width: 0.9em;
+  height: 0.9em;
+  background-size: 0.9em 0.9em;
+  background-image: url("");
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.timer .number {
+  color: #f6ae00;
+  font-size: 1.2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
 @media only screen and (max-width : 1024px) {
   header span {
     font-size: 1.5em !important;
