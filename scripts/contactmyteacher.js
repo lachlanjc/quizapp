@@ -15,7 +15,7 @@ function takeTest(){
     window.open("http://pfmscode.github.io/quizapp/pages/takequiz.html")
 }
 
-var studentName = "Jake";
+var studentName = "Pummington";
 
 var subject = "My grade in your stupid class is a 0";
 var assembledSubject = studentName + " has a message for you: " + subject;
