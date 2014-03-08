@@ -18,5 +18,14 @@ table th tr td {
   height: 15px;
   border-bottom: 1px solid #333;
   display: inline-block;
-	margin: 0 8px;
+  margin: 0 8px;
+}
+.correct {
+  background-color: #dfd;
+}
+.incorrect {
+  background-color: #fdd;
+}
+.to-be-graded {
+  background-color: #ddf;
 }
