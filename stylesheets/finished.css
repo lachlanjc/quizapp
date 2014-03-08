@@ -10,15 +10,16 @@ table {
 td {
   padding: 3px;
 }
-table th tr td {
-  font-weight: 400 !important;
-}
 .blank {
   width: 85px;
   height: 15px;
   border-bottom: 1px solid #333;
   display: inline-block;
   margin: 0 8px;
+}
+.number {
+  padding-left: 3px;
+  font-weight: 400;
 }
 .correct {
   background-color: #dfd;
