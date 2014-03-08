@@ -7,6 +7,10 @@ table {
   min-width: 280px;
   font-size: 1.1em;
 }
+tr {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
 td {
   padding: 3px;
 }
@@ -18,7 +22,7 @@ td {
   margin: 0 8px;
 }
 .number {
-  padding-left: 3px;
+  padding-left: 2px;
   font-weight: 400;
 }
 .correct {
