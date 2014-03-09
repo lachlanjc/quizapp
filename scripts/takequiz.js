@@ -28,3 +28,27 @@ var minutesLabel = document.getElementById("minutes");
                 return valString;
             }
         }
+        function clock(){ 
+var start=document.getElementById('buttonpressed').value;
+if (start=='Start Quiz'){
+   sec++; 
+  if (sec == 60) { 
+   sec = 0; 
+   mins = mins + 1; 
+}  
+  else {
+   mins = mins; 
+} 
+  if (mins == 60) {  
+   mins = 0; 
+   hour += 1; 
+}
+if (sec<=9) { 
+sec = "0" + sec; 
+}  
+if (min<=9) {
+min = "0" + min
+}
+if (hour<=9) {
+hour = "0" + hour
+}
