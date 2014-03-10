@@ -1,87 +1,117 @@
 {
-    "title": "The Effects of the Bunny Revolution",
-    "total_type": ["mc", "tf", "wr"],
-    "created_name": "MILLER, RANDY",
-    "created_date": "time",
-    "last_opened": "time",
-    "last_modified": "time",
-    "questions": [
-        {
-	        "question_1": {
-	            "title": "When did the Bunny Revolution begin?",
-	            "type": "mc",
-	            "options": {
-	                "option_a": "2050",
-	                "option_b": "2052",
-	                "option_c": "2048",
-	                "option_d": "2065",
-	            },
-	            "answer": "option_a",
-	        },
-	       "question_2": {
-	            "title": "Who started the Revolution?",
-	            "type": "mc",
-	            "options": {
-	                "option_a": "Alexander Main",
-	                "option_b": "Oliver Cooper",
-	                "option_c": "Bunzy Soom",
-	                "option_d": "Christopher Lonkenberry",
-	            },
-	            "answer": "option_b",
-	       },
-	       "question_3": {
-	            "title": "Who did he work with?",
-	            "type": "mc",
-	            "options": {
-	                "option_a": "Burnzey Main",
-	                "option_b": "Elefactor Noo",
-	                "option_c": "Xavier Soom",
-	                "option_d": "Christopher Lonkenberry",
-	            },
-	            "answer": "option_c",
-	       },
-	       "question_4": {
-	            "title": "Boston was in favor of the Bunny Revolution.",
-	            "type": "tf",
-	            "answer": "true",
-	       },
-           "question_5": {
-	            "title": ["Starting in", ", the Bunny Revolution was lead by", ". He partnered with", "to gather international support for the cause. His first step was to", "and then he"]
-	            "type": "fb",
-	       },
-           "question_6": {
-               "title": "How does the Bunny Revolution impact us today?",
-               "type": "wr",
+  "_id": "1",
+  "_rev": "1-967a00dff5e02add41819138abb3284d",
+  "title": "The Effects of the Bunny Revolution",
+  "total_type": [
+    "mc",
+    "tf",
+    "wr"
+  ],
+  "created_name": "MILLER, RANDY",
+  "created_date": "time",
+  "last_opened": "time",
+  "last_modified": "time",
+  "questions": [
+    {
+      "question_1": {
+        "title": "When did the Bunny Revolution begin?",
+        "type": "mc",
+        "answer": "option_a",
+        "options": {
+          "option_a": 2050,
+          "option_b": 2052,
+          "option_c": 2048,
+          "option_d": 2065
+        }
+      },
+      "question_2": {
+        "title": "Who started the Revolution?",
+        "type": "mc",
+        "answer": "option_b",
+        "options": {
+          "option_a": "Alexander Main",
+          "option_b": "Oliver Cooper",
+          "option_c": "Bunzy Soom",
+          "option_d": "Christopher Lonkenberry"
+        }
+      },
+      "question_3": {
+        "title": "Who did he work with?",
+        "type": "mc",
+        "answer": "option_c",
+        "options": {
+          "option_a": "Burnzey Main",
+          "option_b": "Elefactor Noo",
+          "option_c": "Xavier Soom",
+          "option_d": "Christopher Lonkenberry"
+        }
+      },
+      "question_4": {
+        "title": "Boston was in favor of the Bunny Revolution.",
+        "type": "tf",
+        "answer": "true"
+      },
+      "question_5": {
+        "title": [
+          "Starting in",
+          ", the Bunny Revolution was lead by",
+          ". He partnered with",
+          "to gather international support for the cause. His first step was to",
+          "and then he"
+        ],
+        "type": "fb"
+      },
+      "question_6": {
+        "title": "How does the Bunny Revolution impact us today?",
+        "type": "wr"
+      }
     }
-    "results": {
-	 "completed_name": "SAMARTH, TARAN",
-	 "completed_time": ,
-	 "completed_device": "computer",
-     "final_score": "1%",
-     "responses": [
-         "question_1": {
-            "answer": "option_a",
-            "status": "correct",
+  ],
+  "quiz_responses": [
+    {
+      "completed_name": "SAMARTH, TARAN",
+      "completed_time": "time",
+      "completed_device": "computer",
+      "completed": "true",
+      "final_score": "75%",
+      "student_answers": [
+        "question_1",
+        {
+          "answer": "option_a",
+          "status": "correct"
         },
-        "question_2": {
-            "answer": "option_d",
-            "status": "incorrect",
+        "question_2",
+        {
+          "answer": "option_d",
+          "status": "incorrect"
         },
-        "question_3": {
-            "answer": "option_c",
-            "status": "correct",
+        "question_3",
+        {
+          "answer": "option_c",
+          "status": "correct"
         },
-        "question_4": {
-            "answer": "false",
-            "status": "incorrect",
+        "question_4",
+        {
+          "answer": "true",
+          "status": "correct"
         },
-        "question_5": {
-            "answer": ["2050", "John Bunzy", "Xavier Soom", "buy millions of dollars worth of billboards in Norway", "built a website and stored data with JSON"],
-            "status": "needs_grading",
+        "question_5",
+        {
+          "answer": [
+            "2050",
+            "John Bunzy",
+            "Xavier Soom",
+            "buy millions of dollars worth of billboards in Norway",
+            "built a website and stored data with JSON"
+          ],
+          "status": "needs_grading"
         },
-        "question_6": {
-            "answer": "It impacts us today in the way that we care about bunnies more now.",
-            "status": "needs_grading",
-        },
-     ]
+        "question_6",
+        {
+          "answer": "It impacts us today in the way that we care about bunnies more now.",
+          "status": "needs_grading"
+        }
+      ]
+    }
+  ]
 }
