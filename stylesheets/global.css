@@ -1,8 +1,3 @@
-/* Colors: http://colorpeek.com/#0167cb,333333,ffcc33 */
-/* Global styles */
-* {
-    box-sizing: border-box;
-}
 body {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 300;
@@ -43,72 +38,53 @@ body {
 } .btn-two:hover {
     background-color: #e4ab00;
     border-color: #fc3;
-} .hidden {
-    opacity: 0;
+} .btn-left {
+    margin: 10px auto 10px 10px;
+} .btn-right {
+    margin: 10px 10px 10px auto;
+}
+.hidden {
+  opacity: 0;
+} .bold {
+  font-weight: 400 !important;
 } .dotted-line {
-    border-top: 2px dotted #cccccc;
-    background-color: #ffffff;
-    height: 1px;
-    width: 55%;
-    min-width: 175px;
-    max-width: 800px;
-    margin: 20px auto 20px auto;
+  border-top: 2px dotted #cccccc;
+  background-color: #ffffff;
+  height: 1px;
+  width: 55%;
+  min-width: 175px;
+  max-width: 800px;
+  margin: 20px auto 20px auto;
 }
 .form-control {
-    width: 50%;
-    max-width: 750px;
-    min-width: 150px;
+  width: 50%;
+  max-width: 750px;
+  min-width: 150px;
 }
 
-/* We're now using Bootstrap for field styling, I'm just leaving this here. */
-/* .field {
-    border-radius: 5px;
-    border: 1px solid #0167eb;
-    box-shadow: inset 0 1px 0px #0167cb;
-    width: 50%;
-    max-width: 750px;
-    min-width: 150px;
-    padding: 5px;
-} .field:hover {
-    border-top: 1px solid #0167eb;
-    box-shadow: 0 0 5px #0167eb;
-    -webkit-box-shadow: 0 0 8px #7ebffe;
-    -moz-box-shadow: 0 0 8px #7ebffe;
-} .field:focus {
-    box-shadow: 0 0 10px #0167cb;
-    -webkit-box-shadow: 0 0 10px #0167cb;
-    -moz-box-shadow: 0 0 10px #0167cb;
-    outline: none;
-} */
 header {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-	border-bottom: 1px solid #ccc;
-	padding: 5px;
-	width: 100%;
-	margin-bottom: 25px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 25px;
 } header span {
-	font-size: 2.5em;
-	vertical-align: bottom;
-	display: inline-block;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+  font-size: 1.95em;
+  vertical-align: bottom;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 } header div {
-    margin-top: 35px;
-	margin-bottom: 35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 } .btn-primary {
-    margin-left: auto;
-    margin-right: 10px;
+  margin-left: auto;
+  margin-right: 10px;
 } .btn-two {
-    margin-left: 10px;
-    margin-right: auto;
-} header .btn-success {
-    margin-left: 0px;
-    margin-right: 15px;
-} header .btn-danger {
-    margin-left: 15px;
-    margin-right: 0px;
+  margin-left: 10px;
+  margin-right: auto;
 }

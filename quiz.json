@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "_id": "1",
   "_rev": "1-967a00dff5e02add41819138abb3284d",
   "title": "The Effects of the Bunny Revolution",
@@ -65,6 +66,64 @@
         "title": "How does the Bunny Revolution impact us today?",
         "type": "wr"
       }
+=======
+    "title": "The Effects of the Bunny Revolution",
+    "total_type": ["mc", "tf", "wr"],
+    "created_name": "MILLER, RANDY",
+    "created_date": "time",
+    "last_opened": "time",
+    "last_modified": "time",
+    "timer": "on",
+    "livescoring": "on",
+    "savebutton": "on",
+    "questions": [
+        {
+	        "question_1": {
+	            "title": "When did the Bunny Revolution begin?",
+	            "type": "mc",
+	            "options": {
+	                "option_a": "2050",
+	                "option_b": "2052",
+	                "option_c": "2048",
+	                "option_d": "2065",
+	            },
+	            "answer": "option_a",
+	        },
+	       "question_2": {
+	            "title": "Who started the Revolution?",
+	            "type": "mc",
+	            "options": {
+	                "option_a": "Alexander Main",
+	                "option_b": "Oliver Cooper",
+	                "option_c": "Bunzy Soom",
+	                "option_d": "Christopher Lonkenberry",
+	            },
+	            "answer": "option_b",
+	       },
+	       "question_3": {
+	            "title": "Who did he work with?",
+	            "type": "mc",
+	            "options": {
+	                "option_a": "Burnzey Main",
+	                "option_b": "Elefactor Noo",
+	                "option_c": "Xavier Soom",
+	                "option_d": "Christopher Lonkenberry",
+	            },
+	            "answer": "option_c",
+	       },
+	       "question_4": {
+	            "title": "Boston was in favor of the Bunny Revolution.",
+	            "type": "tf",
+	            "answer": "true",
+	       },
+           "question_5": {
+	            "title": ["Starting in", ", the Bunny Revolution was lead by", ". He partnered with", "to gather international support for the cause. His first step was to", "and then he"]
+	            "type": "fb",
+	       },
+           "question_6": {
+               "title": "How does the Bunny Revolution impact us today?",
+               "type": "wr",
+>>>>>>> FETCH_HEAD
     }
   ],
   "quiz_responses": [

@@ -1,0 +1,78 @@
+article {
+  width: 50%;
+  margin-left: 20%;
+  margin-right: 30%;
+}
+article h4 {
+  line-height: 2em;
+}
+article .btn-primary {
+  margin-bottom: 25px;
+}
+article label {
+  font-weight: 400 !important;
+}
+.fb {
+  line-height: 3em;
+  vertical-align: top;
+}
+.fb input {
+  height: 2em !important;
+  display: inline !important;
+  width: 5em !important;
+  margin: 1em 4px 4px 4px;
+}
+textarea {
+  font-weight: 400 !important;
+  font-size: 1.35em !important;
+  line-height: 1.5em !important;
+  color: #333 !important;
+  width: 20em !important;
+  height: 12em !important;
+}
+.timer {
+  width: 5em;
+  height: 3em;
+  border-radius: 12px;
+  margin: 15px 15px auto auto;
+  position: fixed;
+  border: 1px solid #f6ae00;
+  background: #fff;
+}
+.timer .number {
+  color: #f6ae00;
+  font-size: 1.2em;
+  font-weight: 300 !important;
+  text-align: center;
+  padding-top: 0.5em;
+}
+@media only screen and (max-width : 1024px) {
+  header span {
+    font-size: 1.5em !important;
+  }
+  article {
+    width: 75%;
+    margin-left: 8%;
+  }
+  .dotted-line {
+    width: 70% !important;
+    margin-left: 0 !important;
+    margin-right: auto;
+  }
+}
+@media print {
+  .dotted-line {
+    border-bottom: 1px solid #ccc;
+    margin-left: 0 !important;
+    width: 75%;
+  }
+  .timer {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  header {
+    border-bottom: none;
+  }
+}
