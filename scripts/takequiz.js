@@ -14,32 +14,20 @@ function backToDashboard() {
 function sendResults() {
     // This function will actually send the results to the server
 }
-// All of this is outdated
-/* var minutesLabel = document.getElementById("minutes");
-        var secondsLabel = document.getElementById("seconds");
-        var totalSeconds = 0;
-        setInterval(setTime, 1000);
+var time = 0,
+    elapsed = '0.0';
 
-        function setTime()
-        {
-            ++totalSeconds;
-            secondsLabel.innerHTML = pad(totalSeconds%60);
-            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
-        }
+window.setInterval(function()
+{
+    time += 100;
 
-        function pad(val)
-        {
-            var valString = val + "";
-            if(valString.length < 2)
-            {
-                return "0" + valString;
-            }
-            else
-            {
-                return valString;
-            }
-        }
-        function clock(){ 
+    elapsed = Math.floor(time / 100) / 10;
+    if(Math.round(elapsed) == elapsed) { elapsed += '.0'; }
+
+    document.title = elapsed;
+
+}, 100);
+
 var start=document.getElementById('buttonpressed').value;
 if (start=='Start Quiz'){
    sec++; 
@@ -62,4 +50,4 @@ min = "0" + min
 }
 if (hour<=9) {
 hour = "0" + hour
-} */
+}
