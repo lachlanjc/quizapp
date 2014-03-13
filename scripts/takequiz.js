@@ -1,10 +1,11 @@
 function confirm(){
-    window.location("http://pfmscode.github.io/quizapp/pages/finished.html")
+    window.location("http://pfmscode.github.io/quizapp/pages/finished.html");
 }
 function backToDashboard(){
-    window.location("http://pfmscode.github.io/quizapp/pages/student-d.html")
+    window.location("http://pfmscode.github.io/quizapp/pages/student-d.html");
 }
-var minutesLabel = document.getElementById("minutes");
+// All of this is outdated
+/* var minutesLabel = document.getElementById("minutes");
         var secondsLabel = document.getElementById("seconds");
         var totalSeconds = 0;
         setInterval(setTime, 1000);
@@ -51,4 +52,4 @@ min = "0" + min
 }
 if (hour<=9) {
 hour = "0" + hour
-}
+} */
