@@ -9,26 +9,6 @@
     <script src="http://pfmscode.github.io/quizapp/scripts/global.js" type="text/javascript"></script>
     <script src="http://pfmscode.github.io/quizapp/scripts/takequiz.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <scipt type="text/javascript">
-        var i, timer, divide
-        i = 0
-        divide = 100
-        function start(){
-            timer = self.setInterval("increment()",(1000/divide))
-        }
-        function increment(){
-            i++;
-            document.getElementByID("timer_out").innerHTML = (i / divide);
-        }
-        fuction stop(){
-            clearInterval(timer);
-            timer = null;
-        }
-        function reset(){
-            stop();
-            i = 0;
-        }
-    </script>
 </head>
 <body>
     <header>
