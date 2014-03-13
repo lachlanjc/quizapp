@@ -28,7 +28,7 @@ window.setInterval(function()
 
 }, 100);
 
-var start=document.getElementById('buttonpressed').value;
+var start = document.getElementById('timer').value;
 if (start=='Start Quiz'){
    sec++; 
   if (sec == 60) { 
