@@ -1,8 +1,18 @@
-function confirm(){
-    window.location("http://pfmscode.github.io/quizapp/pages/finished.html");
+function confirm() {
+    var ynsubmit = confirm("Are you ready to submit your answers?");
+    if ynsubmit === true {
+        sendResults();
+        window.location("http://pfmscode.github.io/quizapp/pages/finished.html");
+    }
+    else {
+        console.log("Not ready to sumbit yet")
+    }
 }
-function backToDashboard(){
+function backToDashboard() {
     window.location("http://pfmscode.github.io/quizapp/pages/student-d.html");
+}
+function sendResults() {
+    // This function will actually send the results to the server
 }
 // All of this is outdated
 /* var minutesLabel = document.getElementById("minutes");
